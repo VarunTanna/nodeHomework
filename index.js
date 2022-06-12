@@ -27,16 +27,16 @@ const questions = [
         name: "installation",
         message: "Please provide us with the installation instructions."
     },
-    {
-        type: "input",
-        name: "licence",
-        message: "Please provide the licence or your badge link."
-    },
+    // {
+    //     type: "input",
+    //     name: "licence",
+    //     message: "Please provide the licence or your badge link."
+    // },
     {
         type: "list",
         name: "licence",
         message: "Which open source licence would you like to use?",
-        choices: ['Apache 2.0']
+        choices: ['Apache', 'MIT', 'GPL', 'BSD', 'None']
     },
     {
         type: "input",
