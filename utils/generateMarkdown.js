@@ -23,7 +23,7 @@ function generateMarkdown(data) {
    <img src="https://img.shields.io/badge/license-${data.license}-goldenrod" alt="badge-${data.license}" /> \n
   
   ## Table of Contents
-  1. [Description](#description]
+  1. [Description](#description)
   2. [Installation](#installation)
   3. [Usage](#usage)
   4. [License](#license)

@@ -15,8 +15,8 @@ const questions = [
     },
     {
         type: "input",
-        name: "repo",
-        message: "What is your repo link?"
+        name: "email",
+        message: "What is your email?"
     },
     {
         type: "input",
@@ -36,7 +36,7 @@ const questions = [
     {
         type: "input",
         name: "usage",
-        message: "Purpose for using this repo."
+        message: "Purpose for using this proejct."
     },
     {
         type: "input",

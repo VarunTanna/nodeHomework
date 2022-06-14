@@ -3,7 +3,7 @@
 
   
   ## Table of Contents
-  1. [Description](#description]
+  1. [Description](#description)
   2. [Installation](#installation)
   3. [Usage](#usage)
   4. [License](#license)
@@ -12,28 +12,28 @@
   7. [Questions](#questions)
 
   ## Description
-  This is a genetrated readme using node.js and js.
+  Creating a generated README.md file.
 
 
   ## Installation
-  The steps I took consist of using inqurie along with js to help us building a generated readme doc.
+  Used inquire and node js along with javacript to create a generated readme.
 
   ## Usage
-  showcase my projects
+  follow the prompts in node to see how it works.
 
   ## License
   Apache
   
 
   ## Contributing
-  no one
+  none
 
   ## test
   video
 
   ## Questions
   Contact me:
-  - [At GitHub/Varun Tanna](https://github.com/Varun Tanna)
-  - [Email Me](mailto:undefined)
+  - [At GitHub/varuntanna](https://github.com/varuntanna)
+  - [Email Me](mailto:varun_tanna@ymail.com)
 
 
