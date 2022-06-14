@@ -1,4 +1,4 @@
-# Node Homework.
+# Node homework.
    <img src="https://img.shields.io/badge/license-Apache-goldenrod" alt="badge-Apache" /> 
 
   
@@ -9,17 +9,17 @@
   4. [License](#license)
   5. [Contributors](#contributing)
   6. [Test Instructions](#test) 
-  7. [Questions](#questions)
+  7. [Contact Me](#contactme)
 
   ## Description
-  Creating a generated README.md file.
+  Creating a generated readme.md file.
 
 
   ## Installation
-  Used inquire and node js along with javacript to create a generated readme.
+  used inquire, node and js to create a generated readme.md file.
 
   ## Usage
-  follow the prompts in node to see how it works.
+  Follow the prompts in node to use the generator.
 
   ## License
   Apache
@@ -31,8 +31,8 @@
   ## test
   video
 
-  ## Questions
-  Contact me:
+  ## Contact me
+  
   - [At GitHub/varuntanna](https://github.com/varuntanna)
   - [Email Me](mailto:varun_tanna@ymail.com)
 

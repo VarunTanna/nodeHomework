@@ -29,7 +29,7 @@ function generateMarkdown(data) {
   4. [License](#license)
   5. [Contributors](#contributing)
   6. [Test Instructions](#test) 
-  7. [Questions](#questions)
+  7. [Contact Me](#contactme)
 
   ## Description
   ${data.description}
@@ -51,8 +51,8 @@ function generateMarkdown(data) {
   ## test
   ${data.test}
 
-  ## Questions
-  Contact me:
+  ## Contact me
+  
   - [At GitHub/${data.username}](https://github.com/${data.username})
   - [Email Me](mailto:${data.email})
 
