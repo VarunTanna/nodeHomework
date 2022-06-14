@@ -5,18 +5,23 @@ const fs = require('fs');
 
 
 
-
+// own folder
 // TODO: Create an array of questions for user input
 const questions = [
     {
         type: "input",
-        name: "title",
-        message: "What is your project title?"
+        name: "username",
+        message: "What is your github user name?"
     },
     {
         type: "input",
-        name: "badge",
-        message: "Please provide the badges link you want."
+        name: "repo",
+        message: "What is your repo link?"
+    },
+    {
+        type: "input",
+        name: "title",
+        message: "What is your project title?"
     },
     {
         type: "input",
@@ -28,16 +33,10 @@ const questions = [
         name: "installation",
         message: "Please provide us with the installation instructions."
     },
-    // {
-    //     type: "input",
-    //     name: "licence",
-    //     message: "Please provide the licence or your badge link."
-    // },
     {
-        type: "list",
-        name: "licence",
-        message: "Which open source licence would you like to use?",
-        choices: ['Apache', 'MIT', 'GPL', 'BSD', 'None']
+        type: "input",
+        name: "usage",
+        message: "Purpose for using this repo."
     },
     {
         type: "input",
@@ -47,25 +46,21 @@ const questions = [
     {
         type: "input",
         name: "test",
-        message: "Please provide the project test",
+        message: "test video on how it runs"
     },
     {
-        type: "input",
-        name: "username",
-        message: "What is your github user name?"
+        type: "list",
+        name: "license",
+        message: "Which open source licence would you like to use?",
+        choices: ['Apache', 'MIT', 'GPL', 'BSD', 'None']
     },
-    {
-        type: "input",
-        name: "repo",
-        message: "What is your repo link?"
-    }
 ];
 
-
+// own folder w fs
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {
     let content = generateMarkdown(data);
-    fs.writeFile(fileName, content, function (error){
+    fs.writeFile("./output/README.md", content, function (error){
         if (error) {
             return console.log(error)
         }
